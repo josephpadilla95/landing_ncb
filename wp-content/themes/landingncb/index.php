@@ -1,0 +1,1 @@
+<h1>RENDERIZA INDEX</h1>

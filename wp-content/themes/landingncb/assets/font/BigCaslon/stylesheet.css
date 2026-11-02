@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'BigCaslonFB';
+    src: url('BigCaslonFB-BlackItalic.woff2') format('woff2'),
+        url('BigCaslonFB-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BigCaslonFB';
+    src: url('BigCaslonFB-BlackItalic_1.woff2') format('woff2'),
+        url('BigCaslonFB-BlackItalic_1.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BigCaslonFB';
+    src: url('BigCaslonFB-BlackItalic_2.woff2') format('woff2'),
+        url('BigCaslonFB-BlackItalic_2.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+

@@ -1,0 +1,1 @@
+<h1>RENDERIZDO PAGE</h1>
