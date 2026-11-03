@@ -109,5 +109,5 @@
     <?php //endif; ?>
 
     <?php
-    get_template_part('template-parts/sections/sidenav');
+    get_template_part('template-parts/sections/sidenav-v2');
     ?>

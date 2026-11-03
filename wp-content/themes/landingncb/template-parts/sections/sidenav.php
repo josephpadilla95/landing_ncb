@@ -3,11 +3,11 @@
     <div class="offcanvas-body p-0">
         <nav aria-label="Principal">
             <ul class="sidenav-list">
-                <li><a href="#proyecto"  data-bs-dismiss="offcanvas">Proyecto</a></li>
-                <li><a href="#galeria"   data-bs-dismiss="offcanvas">Galería</a></li>
-                <li><a href="#planos"    data-bs-dismiss="offcanvas">Planos</a></li>
-                <li><a href="#charlemos" data-bs-dismiss="offcanvas">Charlemos</a></li>
-                <li><a href="#ubicacion" data-bs-dismiss="offcanvas">Ubicación</a></li>
+                <li><a href="#proyecto" >Proyecto</a></li>
+                <li><a href="#sobre-proyecto" >Galería</a></li>
+                <li><a href="#flats"   >Planos</a></li>
+                <li><a href="#contacto">Charlemos</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
             </ul>
         </nav>
     </div>

@@ -17,7 +17,7 @@ get_header();
     get_template_part( 'template-parts/sections/section-contacto', null, [
         'informacion_general_id' => ncb_get_info_general_id(),
     ] );
-    get_template_part( 'template-parts/sections/tab-entorno-proyecto', null, [
+    get_template_part( 'template-parts/sections/section-location', null, [
         'proyecto_id' => ncb_get_proyecto_id(),
     ] );
     ?>

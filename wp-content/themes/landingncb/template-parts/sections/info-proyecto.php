@@ -41,7 +41,7 @@ $imagen_proyecto = get_field('imagen_proyecto', $proyecto_id);
 $titulo_proyecto = get_the_title($proyecto_id); // en vez de the_title()
 ?>
 
-<div class="container py-4 py-md-5">
+<div class="container py-4 py-md-5" id="proyecto">
     <!-- Header -->
     <div class="row align-items-center">
         <div class="col-8">

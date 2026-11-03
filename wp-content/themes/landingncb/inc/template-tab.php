@@ -125,7 +125,7 @@ function render_tabs_section(string $field_name, string $section_class, string $
 
     <section class="tabs-swiper-section <?php echo esc_attr($section_class); ?>"
         data-controls="<?php echo esc_attr($controls); ?>"
-        data-ambientes='<?php echo esc_attr(wp_json_encode($items)); ?>'>
+        data-ambientes='<?php echo esc_attr(wp_json_encode($items)); ?>' id="<?php echo esc_attr($section_class); ?>">
 
         <?php if ($title) : ?>
             <h2 class="sobre-proyecto__title"><?php echo esc_html($title); ?></h2>

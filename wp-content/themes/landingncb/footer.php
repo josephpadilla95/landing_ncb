@@ -83,8 +83,8 @@ $direccion_ncb = get_field('direccion_ncb', $info_id);
 
         <!-- Links legales -->
         <div class="footer-bottom">
-            <a href="#">Políticas de Privacidad</a>
-            <a href="#">Políticas de Cookies</a>
+            <a href="<?php echo site_url(); ?>/politica-privacidad/">Políticas de Privacidad</a>
+            <a href="<?php echo site_url(); ?>/terminos-y-condiciones/">Terminos y Condiciones</a>
             <a href="#">Libro de Reclamaciones</a>
         </div>
     </div>

@@ -33,4 +33,33 @@ document.addEventListener("DOMContentLoaded", function () {
    */
 
   initContactForm("#form-contacto");
+
+  const sidenav = document.getElementById("sidenav");
+
+  if (sidenav) {
+    const offcanvas = bootstrap.Offcanvas.getOrCreateInstance(sidenav);
+
+    sidenav.querySelectorAll('.sidenav-list a[href^="#"]').forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        const href = link.getAttribute("href");
+        const target = document.querySelector(href);
+
+        if (target) {
+          // Cuando el menú termine de cerrarse, baja a la sección
+          sidenav.addEventListener(
+            "hidden.bs.offcanvas",
+            () => {
+              target.scrollIntoView({ behavior: "smooth" });
+              history.pushState(null, "", href);
+            },
+            { once: true },
+          );
+        }
+
+        offcanvas.hide();
+      });
+    });
+  }
 });

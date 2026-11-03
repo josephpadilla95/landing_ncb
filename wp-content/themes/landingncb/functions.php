@@ -8,6 +8,7 @@ require get_template_directory() . '/inc/setup.php';
 require get_template_directory() . '/inc/enqueue.php';
 require get_template_directory() . '/inc/performance.php';
 require_once get_template_directory() . '/inc/template-tab.php';
+require_once get_template_directory() . '/inc/template-location-section.php';
 require_once get_theme_file_path( 'inc/contact-form.php' );
 
 // Evita que WordPress cambie las comillas rectas por comillas latinas/angulares
