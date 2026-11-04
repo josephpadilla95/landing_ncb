@@ -40,7 +40,7 @@
                             'loading' => 'eager', // la imagen se daescarga inmediatamente
                             'fetchpriority' => 'high', // prioridad de descarga
                             'alt' => esc_attr('Logo NCB inmobiliaria'),
-                            'style' => 'max-height: 48px; width: auto;'
+                            'style' => 'max-height: 35px; width: auto;'
                         ]
                     )
                     ?>
@@ -60,7 +60,7 @@
                             'loading' => 'eager', // la imagen se daescarga inmediatamente
                             'fetchpriority' => 'high', // prioridad de descarga
                             'alt' => esc_attr('Logo NCB inmobiliaria'),
-                            'style' => 'max-height: 48px; width: auto;'
+                            'style' => 'max-height: 30px; width: auto;'
                         ]
                     )
                     ?>
